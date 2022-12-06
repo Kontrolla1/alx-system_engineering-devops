@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n 1 $iacta1 >> $iacta2
+head --lines=3 | tail --lines=1
